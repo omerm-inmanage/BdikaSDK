@@ -1,0 +1,6 @@
+framework module BdikaSDK {
+  umbrella header "BdikaSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

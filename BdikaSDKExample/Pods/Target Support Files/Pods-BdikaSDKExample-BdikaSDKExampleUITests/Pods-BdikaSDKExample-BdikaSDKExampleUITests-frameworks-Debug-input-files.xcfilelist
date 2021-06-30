@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests-frameworks.sh
 ${PODS_ROOT}/../../BdikaSDK.framework
+${BUILT_PRODUCTS_DIR}/BdikaSDK/BdikaSDK.framework

@@ -15,10 +15,7 @@
     "http": "file:/Users/omercohen/BdikaSDK/BdikaSDK.zip",
     "type": "zip"
   },
-  "source_files": [
-    "Classes",
-    "Classes/**/*.{h,m}"
-  ],
+  "source_files": "BdikaSDK/*",
   "ios": {
     "vendored_frameworks": "BdikaSDK.framework"
   },

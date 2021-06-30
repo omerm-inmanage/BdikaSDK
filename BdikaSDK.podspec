@@ -35,7 +35,8 @@ Pod::Spec.new do |spec|
   # s.source            = { :http => 'https://s3.amazonaws.com/elasticbeanstalk-us-east-1-564874457370/NiceLogger.zip' }
   # spec.ios.vendored_frameworks = 'BdikaSDK.xcframework'
   
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files = 'BdikaSDK/*'
   spec.ios.vendored_frameworks = 'BdikaSDK.framework'
   spec.exclude_files = "Classes/Exclude"
   # s.source_files = 'MeshulamSDK/Classes/**/*'

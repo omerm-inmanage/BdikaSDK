@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AAA2FD385F7ECE73D226FD59F274DAC7"
-               BuildableName = "BdikaSDK"
+               BuildableName = "BdikaSDK.framework"
                BlueprintName = "BdikaSDK"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
