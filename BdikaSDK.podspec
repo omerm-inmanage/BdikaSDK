@@ -31,7 +31,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "license" }
   spec.author             = { "Omer Cohen" => "omerm@inmanage.net"  }
   spec.source = { :http => "file:/Users/omercohen/BdikaSDK/BdikaSDK.zip", :type => "zip"}
-  s.ios.deployment_target = '11.0'
+  spec.ios.deployment_target = '11.0'
+
 
   # spec.source       = { :git => "https://github.com/omerm-inmanage/BdikaSDK.git", :tag => "#{spec.version}" }
   # s.source            = { :http => 'https://s3.amazonaws.com/elasticbeanstalk-us-east-1-564874457370/NiceLogger.zip' }

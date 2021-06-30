@@ -15,15 +15,12 @@
     "http": "file:/Users/omercohen/BdikaSDK/BdikaSDK.zip",
     "type": "zip"
   },
+  "platforms": {
+    "ios": "11.0"
+  },
   "source_files": "BdikaSDK/*",
   "ios": {
     "vendored_frameworks": "BdikaSDK.framework"
   },
-  "exclude_files": "Classes/Exclude",
-  "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
-  }
+  "exclude_files": "Classes/Exclude"
 }
