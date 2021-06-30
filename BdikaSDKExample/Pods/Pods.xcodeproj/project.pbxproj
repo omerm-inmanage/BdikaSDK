@@ -6,20 +6,46 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		AAA2FD385F7ECE73D226FD59F274DAC7 /* BdikaSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F53F372D773282F4BAA9A7B1BC22BE18 /* Build configuration list for PBXAggregateTarget "BdikaSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BdikaSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		02C6C88DA273AA07F41706A234CDDCCC /* Pods-BdikaSDKExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE8918E690F805BF58C505DD17ECDEB /* Pods-BdikaSDKExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ACE090890D39CED642BCEF49F745F41 /* Pods-BdikaSDKExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3660AE586FD610FF809C41ED6648619 /* Pods-BdikaSDKExampleTests-dummy.m */; };
-		2211AF4CD5D418162FCFC26324175833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5EC60A18FCAD679DC166BCD31421E7E7 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BF362DAE5A2BE18099D9513B7D7275 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02C6C88DA273AA07F41706A234CDDCCC /* Pods-BdikaSDKExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBED1EAFDAD543C51C8C6D5384A5919 /* Pods-BdikaSDKExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		065FC9D098213646E2B67705C58F9019 /* Pods-BdikaSDKExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6661E422A635624F3ED46D38E86170 /* Pods-BdikaSDKExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A513370520BC8EC2E58EA2BCF8D5BA9 /* Pods-BdikaSDKExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AA793FC060131CAA6C99D69FE8D6B /* Pods-BdikaSDKExample-dummy.m */; };
+		1ACE090890D39CED642BCEF49F745F41 /* Pods-BdikaSDKExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBE6DC808ED65BC46036261F4289F1A /* Pods-BdikaSDKExampleTests-dummy.m */; };
+		36348A041D61BF8E2C3FE6047678249B /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD84D8C3EE6C251C504E695CEC309D01 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m */; };
+		46DDF0C19240BD1273A82E043BCA8176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D985A064D517E29A28AA7A0D54A43E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		65AA05051B2BA1EAFC9F02BB10348845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7C09091464DD79BF2FE32B7D1AEF2B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B012CBAEC39E8B22937F368ADEB3FEB6 /* Pods-BdikaSDKExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 860BE9C33C8CE27452A2B7DFE6BD8294 /* Pods-BdikaSDKExample-dummy.m */; };
-		DA3FDD8C634BB692474091D71807567D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE7DBA4ECB3EA1EEF9674C1995833D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m */; };
-		E0B4DE3C8CA478C3A3B7F761FCC30981 /* Pods-BdikaSDKExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA8C2CEC6F24C5F0E757E2196B27343 /* Pods-BdikaSDKExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6743ADB939E26F35C885CF260E475B60 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CF5E2FA965CE20AFAB2057BBE9A6C2 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10C1308AB338442DB17980F4CD1A018D /* PBXContainerItemProxy */ = {
+		8880A46CDF1E31C6467D12F20A071249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA2FD385F7ECE73D226FD59F274DAC7;
+			remoteInfo = BdikaSDK;
+		};
+		8F5F4B494E07846E19ECD048931333EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA2FD385F7ECE73D226FD59F274DAC7;
+			remoteInfo = BdikaSDK;
+		};
+		F7287D0BCCC6FE26131075E48669D072 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,43 +55,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AE8918E690F805BF58C505DD17ECDEB /* Pods-BdikaSDKExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BdikaSDKExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		032234B4133952EAA53B2B1D90034CDE /* Pods-BdikaSDKExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BdikaSDKExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03B9EA98741C85E7A486BB2BE6FE6A8D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-Info.plist"; sourceTree = "<group>"; };
 		112831CD00E69105E48BFA3536FC673C /* Pods_BdikaSDKExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BdikaSDKExampleTests.framework; path = "Pods-BdikaSDKExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		138C248095312B9E9752E43F43B42263 /* Pods-BdikaSDKExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BdikaSDKExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22DAC99B2F4E754C6CD22D31A716C958 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		27ED5FA8C11E01146AF35625644F1009 /* Pods-BdikaSDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		40821B05145B18ED33C7614B465C486E /* Pods-BdikaSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
-		41018C4CAE9490D8B4F39621E9DC5748 /* Pods-BdikaSDKExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExampleTests-Info.plist"; sourceTree = "<group>"; };
-		69CF05E2D6B01997325C8B4D98D13235 /* Pods-BdikaSDKExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		71BF362DAE5A2BE18099D9513B7D7275 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		16EF8AD2B38A823418C0FF7EF0F7F512 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1F1415AE5F32710FB5B1D9ECA51F4237 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		207A7C7220DC284AE4B51C3A264A2862 /* Pods-BdikaSDKExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BdikaSDKExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F6F947E54039CC27FCE798589F96BD5 /* Pods-BdikaSDKExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FD86F2A62A9FB77BA450D353218FEB6 /* Pods-BdikaSDKExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExampleTests-Info.plist"; sourceTree = "<group>"; };
+		44B38C019EAFE1F6CC93D791F37E38E5 /* Pods-BdikaSDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50902DC6AD02032820175F0D71366B52 /* BdikaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BdikaSDK.debug.xcconfig; sourceTree = "<group>"; };
+		548F92319D85DD6778288909B4DD99FF /* license */ = {isa = PBXFileReference; includeInIndex = 1; path = license; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7369E21C75BAC143F17CB3E7F8E67DCA /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-Info.plist"; sourceTree = "<group>"; };
-		77E88E42EC800CE2469425784CC9DF7F /* Pods-BdikaSDKExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExample-Info.plist"; sourceTree = "<group>"; };
-		860BE9C33C8CE27452A2B7DFE6BD8294 /* Pods-BdikaSDKExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BdikaSDKExample-dummy.m"; sourceTree = "<group>"; };
-		97460A29CA7404A48504EBB4C752403F /* Pods-BdikaSDKExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BdikaSDKExampleTests.modulemap"; sourceTree = "<group>"; };
-		99DF40646BDBCCF905DA04F03D1C5548 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7374C6561D93935CFDF2093F2E8BA457 /* Pods-BdikaSDKExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BdikaSDKExample-frameworks.sh"; sourceTree = "<group>"; };
+		7B7AF6EDF979C5C2AA41792A225716DB /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C9F734F32AD2ED7F515B805BA0D54D6 /* BdikaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BdikaSDK.framework; sourceTree = "<group>"; };
+		7D7BDC5E606A0F18E1FF73B5E3C35665 /* Pods-BdikaSDKExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BdikaSDKExampleTests.modulemap"; sourceTree = "<group>"; };
+		872AA793FC060131CAA6C99D69FE8D6B /* Pods-BdikaSDKExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BdikaSDKExample-dummy.m"; sourceTree = "<group>"; };
+		8DBED1EAFDAD543C51C8C6D5384A5919 /* Pods-BdikaSDKExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BdikaSDKExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		964C3204762B15B354214BA09B1CAE9C /* Pods-BdikaSDKExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A6D5BB3672F70A9037C549B6E468E41 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A244DA6038A97F922CDCA96B2AFB584B /* Pods-BdikaSDKExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BdikaSDKExample.modulemap"; sourceTree = "<group>"; };
-		B0E6A89FB8D5D916AAE9F10F3BF6BC78 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap"; sourceTree = "<group>"; };
-		B3660AE586FD610FF809C41ED6648619 /* Pods-BdikaSDKExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BdikaSDKExampleTests-dummy.m"; sourceTree = "<group>"; };
-		B451635E315F87E5FF9DC68E5FE7BA70 /* Pods-BdikaSDKExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C172B659A40D488C3EFBB0DE8BC94986 /* Pods-BdikaSDKExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		C4524B1D13AD031CA25A9D7C7DE994D9 /* Pods-BdikaSDKExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BdikaSDKExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D3F9B0317573B191E37D2313A69CBE83 /* Pods-BdikaSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExample.release.xcconfig"; sourceTree = "<group>"; };
-		E041E60441FE1931402F024B16A7F718 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E2AE7DBA4ECB3EA1EEF9674C1995833D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		A3F5C36AA36A92BE6CB794C48D505E3A /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5DD19F540D363A3F251528C0FF6CFBA /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap"; sourceTree = "<group>"; };
+		CBBE6DC808ED65BC46036261F4289F1A /* Pods-BdikaSDKExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BdikaSDKExampleTests-dummy.m"; sourceTree = "<group>"; };
+		CD84D8C3EE6C251C504E695CEC309D01 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		D1CEA8AC95EB0F212C714FAA5B92C313 /* Pods-BdikaSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		DA6661E422A635624F3ED46D38E86170 /* Pods-BdikaSDKExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BdikaSDKExample-umbrella.h"; sourceTree = "<group>"; };
+		DE1D6F9D893BB618D5BCC9740AC0DFCD /* BdikaSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BdikaSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF5683B44C9493B03C9811D3B501E261 /* BdikaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BdikaSDK.release.xcconfig; sourceTree = "<group>"; };
+		E266A361B391D74E4A8962DA76E598E8 /* Pods-BdikaSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExample.release.xcconfig"; sourceTree = "<group>"; };
+		E9AAAEAD34B334A98FC06CCA63FC3F6E /* Pods-BdikaSDKExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BdikaSDKExample.modulemap"; sourceTree = "<group>"; };
 		EA74215EED96E0DF8E1C2B050DF89AC6 /* Pods_BdikaSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BdikaSDKExample.framework; path = "Pods-BdikaSDKExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAA8C2CEC6F24C5F0E757E2196B27343 /* Pods-BdikaSDKExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BdikaSDKExample-umbrella.h"; sourceTree = "<group>"; };
-		F5CC89CB13C521C71825E5C9925F247D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4ED57CECB4CAC17DFC54DA1F1AE325A /* Pods-BdikaSDKExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6CF5E2FA965CE20AFAB2057BBE9A6C2 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h"; sourceTree = "<group>"; };
 		F82DF4B36D43B54A6AD07539B751E534 /* Pods_BdikaSDKExample_BdikaSDKExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BdikaSDKExample_BdikaSDKExampleUITests.framework; path = "Pods-BdikaSDKExample-BdikaSDKExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86BFFC6A4C769B5DE69A476FB84CF29 /* Pods-BdikaSDKExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BdikaSDKExample-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		220CF00F30775B6BF65F6B10FC7797FB /* Frameworks */ = {
+		3CCD4BB23E5E1AD85103354E73FF068D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C09091464DD79BF2FE32B7D1AEF2B30 /* Foundation.framework in Frameworks */,
+				46DDF0C19240BD1273A82E043BCA8176 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,17 +110,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4C2BE356793E9C684534FEA2FF2C9E7 /* Frameworks */ = {
+		C9276B5258A434D928F37750D6271162 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2211AF4CD5D418162FCFC26324175833 /* Foundation.framework in Frameworks */,
+				5D985A064D517E29A28AA7A0D54A43E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F33F061DD7F19C5F42E0C30D6EDF73F /* Pods-BdikaSDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				E9AAAEAD34B334A98FC06CCA63FC3F6E /* Pods-BdikaSDKExample.modulemap */,
+				032234B4133952EAA53B2B1D90034CDE /* Pods-BdikaSDKExample-acknowledgements.markdown */,
+				964C3204762B15B354214BA09B1CAE9C /* Pods-BdikaSDKExample-acknowledgements.plist */,
+				872AA793FC060131CAA6C99D69FE8D6B /* Pods-BdikaSDKExample-dummy.m */,
+				7374C6561D93935CFDF2093F2E8BA457 /* Pods-BdikaSDKExample-frameworks.sh */,
+				F86BFFC6A4C769B5DE69A476FB84CF29 /* Pods-BdikaSDKExample-Info.plist */,
+				DA6661E422A635624F3ED46D38E86170 /* Pods-BdikaSDKExample-umbrella.h */,
+				D1CEA8AC95EB0F212C714FAA5B92C313 /* Pods-BdikaSDKExample.debug.xcconfig */,
+				E266A361B391D74E4A8962DA76E598E8 /* Pods-BdikaSDKExample.release.xcconfig */,
+			);
+			name = "Pods-BdikaSDKExample";
+			path = "Target Support Files/Pods-BdikaSDKExample";
+			sourceTree = "<group>";
+		};
+		20EE9EF783B03871FFA63D6405564A10 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A478159F7D2202AE37AE46D873FD15B /* BdikaSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		23ECBDD3C3A29C40774B646F10FCD628 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50902DC6AD02032820175F0D71366B52 /* BdikaSDK.debug.xcconfig */,
+				DF5683B44C9493B03C9811D3B501E261 /* BdikaSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "BdikaSDKExample/Pods/Target Support Files/BdikaSDK";
+			sourceTree = "<group>";
+		};
+		40E7643030CBD67C3B4267B02DC737F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D6F9D893BB618D5BCC9740AC0DFCD /* BdikaSDK.podspec */,
+				548F92319D85DD6778288909B4DD99FF /* license */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		55622F2EA3A6AC9C148810CCF95F6318 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,55 +183,76 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72C271974A5A4E202AA448F90DACD098 /* Pods-BdikaSDKExample */ = {
+		600C7AD5B22D4918F3501DCA39745094 /* Pods-BdikaSDKExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				A244DA6038A97F922CDCA96B2AFB584B /* Pods-BdikaSDKExample.modulemap */,
-				138C248095312B9E9752E43F43B42263 /* Pods-BdikaSDKExample-acknowledgements.markdown */,
-				69CF05E2D6B01997325C8B4D98D13235 /* Pods-BdikaSDKExample-acknowledgements.plist */,
-				860BE9C33C8CE27452A2B7DFE6BD8294 /* Pods-BdikaSDKExample-dummy.m */,
-				77E88E42EC800CE2469425784CC9DF7F /* Pods-BdikaSDKExample-Info.plist */,
-				EAA8C2CEC6F24C5F0E757E2196B27343 /* Pods-BdikaSDKExample-umbrella.h */,
-				40821B05145B18ED33C7614B465C486E /* Pods-BdikaSDKExample.debug.xcconfig */,
-				D3F9B0317573B191E37D2313A69CBE83 /* Pods-BdikaSDKExample.release.xcconfig */,
-			);
-			name = "Pods-BdikaSDKExample";
-			path = "Target Support Files/Pods-BdikaSDKExample";
-			sourceTree = "<group>";
-		};
-		938250F7358BAD319EDDF12502A39541 /* Pods-BdikaSDKExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				97460A29CA7404A48504EBB4C752403F /* Pods-BdikaSDKExampleTests.modulemap */,
-				C4524B1D13AD031CA25A9D7C7DE994D9 /* Pods-BdikaSDKExampleTests-acknowledgements.markdown */,
-				B451635E315F87E5FF9DC68E5FE7BA70 /* Pods-BdikaSDKExampleTests-acknowledgements.plist */,
-				B3660AE586FD610FF809C41ED6648619 /* Pods-BdikaSDKExampleTests-dummy.m */,
-				41018C4CAE9490D8B4F39621E9DC5748 /* Pods-BdikaSDKExampleTests-Info.plist */,
-				0AE8918E690F805BF58C505DD17ECDEB /* Pods-BdikaSDKExampleTests-umbrella.h */,
-				27ED5FA8C11E01146AF35625644F1009 /* Pods-BdikaSDKExampleTests.debug.xcconfig */,
-				C172B659A40D488C3EFBB0DE8BC94986 /* Pods-BdikaSDKExampleTests.release.xcconfig */,
+				7D7BDC5E606A0F18E1FF73B5E3C35665 /* Pods-BdikaSDKExampleTests.modulemap */,
+				207A7C7220DC284AE4B51C3A264A2862 /* Pods-BdikaSDKExampleTests-acknowledgements.markdown */,
+				F4ED57CECB4CAC17DFC54DA1F1AE325A /* Pods-BdikaSDKExampleTests-acknowledgements.plist */,
+				CBBE6DC808ED65BC46036261F4289F1A /* Pods-BdikaSDKExampleTests-dummy.m */,
+				3FD86F2A62A9FB77BA450D353218FEB6 /* Pods-BdikaSDKExampleTests-Info.plist */,
+				8DBED1EAFDAD543C51C8C6D5384A5919 /* Pods-BdikaSDKExampleTests-umbrella.h */,
+				44B38C019EAFE1F6CC93D791F37E38E5 /* Pods-BdikaSDKExampleTests.debug.xcconfig */,
+				3F6F947E54039CC27FCE798589F96BD5 /* Pods-BdikaSDKExampleTests.release.xcconfig */,
 			);
 			name = "Pods-BdikaSDKExampleTests";
 			path = "Target Support Files/Pods-BdikaSDKExampleTests";
 			sourceTree = "<group>";
 		};
-		CA5E1B43062CDA1CA452B5F1ABA795C9 /* Targets Support Files */ = {
+		61A5C5D995C76F194AA058C4C5826374 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				72C271974A5A4E202AA448F90DACD098 /* Pods-BdikaSDKExample */,
-				D8C048091D06F96CA5B150AF47CC2BFA /* Pods-BdikaSDKExample-BdikaSDKExampleUITests */,
-				938250F7358BAD319EDDF12502A39541 /* Pods-BdikaSDKExampleTests */,
+				A5DD19F540D363A3F251528C0FF6CFBA /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap */,
+				7B7AF6EDF979C5C2AA41792A225716DB /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.markdown */,
+				9A6D5BB3672F70A9037C549B6E468E41 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.plist */,
+				CD84D8C3EE6C251C504E695CEC309D01 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m */,
+				16EF8AD2B38A823418C0FF7EF0F7F512 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-frameworks.sh */,
+				03B9EA98741C85E7A486BB2BE6FE6A8D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-Info.plist */,
+				F6CF5E2FA965CE20AFAB2057BBE9A6C2 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h */,
+				1F1415AE5F32710FB5B1D9ECA51F4237 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.debug.xcconfig */,
+				A3F5C36AA36A92BE6CB794C48D505E3A /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-BdikaSDKExample-BdikaSDKExampleUITests";
+			path = "Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests";
+			sourceTree = "<group>";
+		};
+		648FCC1CA347F477F3F4F300420414FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F734F32AD2ED7F515B805BA0D54D6 /* BdikaSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69CDC1B3E423BD2A55C353EA92F7C139 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F33F061DD7F19C5F42E0C30D6EDF73F /* Pods-BdikaSDKExample */,
+				61A5C5D995C76F194AA058C4C5826374 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests */,
+				600C7AD5B22D4918F3501DCA39745094 /* Pods-BdikaSDKExampleTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A478159F7D2202AE37AE46D873FD15B /* BdikaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				648FCC1CA347F477F3F4F300420414FB /* Frameworks */,
+				40E7643030CBD67C3B4267B02DC737F0 /* Pod */,
+				23ECBDD3C3A29C40774B646F10FCD628 /* Support Files */,
+			);
+			name = BdikaSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				20EE9EF783B03871FFA63D6405564A10 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				55622F2EA3A6AC9C148810CCF95F6318 /* Products */,
-				CA5E1B43062CDA1CA452B5F1ABA795C9 /* Targets Support Files */,
+				69CDC1B3E423BD2A55C353EA92F7C139 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,38 +264,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8C048091D06F96CA5B150AF47CC2BFA /* Pods-BdikaSDKExample-BdikaSDKExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B0E6A89FB8D5D916AAE9F10F3BF6BC78 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap */,
-				99DF40646BDBCCF905DA04F03D1C5548 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.markdown */,
-				E041E60441FE1931402F024B16A7F718 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-acknowledgements.plist */,
-				E2AE7DBA4ECB3EA1EEF9674C1995833D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m */,
-				7369E21C75BAC143F17CB3E7F8E67DCA /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-Info.plist */,
-				71BF362DAE5A2BE18099D9513B7D7275 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h */,
-				22DAC99B2F4E754C6CD22D31A716C958 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.debug.xcconfig */,
-				F5CC89CB13C521C71825E5C9925F247D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.release.xcconfig */,
-			);
-			name = "Pods-BdikaSDKExample-BdikaSDKExampleUITests";
-			path = "Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		01EDD2C50AE2785151C31B10F039D285 /* Headers */ = {
+		507C503C5D69AEE0BD4220C25FC76FFA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B4DE3C8CA478C3A3B7F761FCC30981 /* Pods-BdikaSDKExample-umbrella.h in Headers */,
+				6743ADB939E26F35C885CF260E475B60 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		351DFA6E8992F0F10AFAFDF9E6AAF407 /* Headers */ = {
+		AD0FE0CCF67B487F893B1A7F0576C12F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC60A18FCAD679DC166BCD31421E7E7 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-umbrella.h in Headers */,
+				065FC9D098213646E2B67705C58F9019 /* Pods-BdikaSDKExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CB04661BF48EB649704CF6F1184238B9 /* PBXTargetDependency */,
+				FFCD457309C96540EC7D20DFFE16149A /* PBXTargetDependency */,
 			);
 			name = "Pods-BdikaSDKExampleTests";
 			productName = "Pods-BdikaSDKExampleTests";
@@ -233,16 +315,17 @@
 		};
 		884CCB576F70A04EC0FCFE02843965EC /* Pods-BdikaSDKExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAF8092E8B5155FE4FC634774D07F577 /* Build configuration list for PBXNativeTarget "Pods-BdikaSDKExample" */;
+			buildConfigurationList = 551DA64B1F85093C11EBB693CFA5E597 /* Build configuration list for PBXNativeTarget "Pods-BdikaSDKExample" */;
 			buildPhases = (
-				01EDD2C50AE2785151C31B10F039D285 /* Headers */,
-				3C73FB4FF2C3295ADE8AA8EC9E38AFDB /* Sources */,
-				D4C2BE356793E9C684534FEA2FF2C9E7 /* Frameworks */,
-				C079DE9C4B047F2CF2A4E99042B383AD /* Resources */,
+				AD0FE0CCF67B487F893B1A7F0576C12F /* Headers */,
+				E9AFB182E58BCDF9C862A2E7BDEDB407 /* Sources */,
+				C9276B5258A434D928F37750D6271162 /* Frameworks */,
+				B93CD3969AB1DC05AF714D92D0CD8E02 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8CD04BF928092D523EDC6F64ABA422FC /* PBXTargetDependency */,
 			);
 			name = "Pods-BdikaSDKExample";
 			productName = "Pods-BdikaSDKExample";
@@ -251,16 +334,17 @@
 		};
 		90EDC8532F70249CC9587B7E96B58BA2 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37746BA06EEA73D888EA26D7B3AAE8AC /* Build configuration list for PBXNativeTarget "Pods-BdikaSDKExample-BdikaSDKExampleUITests" */;
+			buildConfigurationList = 9448C34460DD578A15F419FBB56D79A3 /* Build configuration list for PBXNativeTarget "Pods-BdikaSDKExample-BdikaSDKExampleUITests" */;
 			buildPhases = (
-				351DFA6E8992F0F10AFAFDF9E6AAF407 /* Headers */,
-				2FCC9DE02CF7ACEFE1FC5B9F5A0B4CE5 /* Sources */,
-				220CF00F30775B6BF65F6B10FC7797FB /* Frameworks */,
-				8361D035DFED448AB43E991DECD01D8F /* Resources */,
+				507C503C5D69AEE0BD4220C25FC76FFA /* Headers */,
+				B83CC48738C814041EE38EAD8CC11182 /* Sources */,
+				3CCD4BB23E5E1AD85103354E73FF068D /* Frameworks */,
+				18CE223E7B9F0C3261C601F7619CF959 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				127D82F01774A0636F5C43DB838BE199 /* PBXTargetDependency */,
 			);
 			name = "Pods-BdikaSDKExample-BdikaSDKExampleUITests";
 			productName = "Pods-BdikaSDKExample-BdikaSDKExampleUITests";
@@ -289,6 +373,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				AAA2FD385F7ECE73D226FD59F274DAC7 /* BdikaSDK */,
 				884CCB576F70A04EC0FCFE02843965EC /* Pods-BdikaSDKExample */,
 				90EDC8532F70249CC9587B7E96B58BA2 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests */,
 				08A1DCB53E0D4D854A2FACC103BDE05A /* Pods-BdikaSDKExampleTests */,
@@ -297,7 +382,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8361D035DFED448AB43E991DECD01D8F /* Resources */ = {
+		18CE223E7B9F0C3261C601F7619CF959 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,7 +396,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C079DE9C4B047F2CF2A4E99042B383AD /* Resources */ = {
+		B93CD3969AB1DC05AF714D92D0CD8E02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,19 +406,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FCC9DE02CF7ACEFE1FC5B9F5A0B4CE5 /* Sources */ = {
+		B83CC48738C814041EE38EAD8CC11182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3FDD8C634BB692474091D71807567D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C73FB4FF2C3295ADE8AA8EC9E38AFDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B012CBAEC39E8B22937F368ADEB3FEB6 /* Pods-BdikaSDKExample-dummy.m in Sources */,
+				36348A041D61BF8E2C3FE6047678249B /* Pods-BdikaSDKExample-BdikaSDKExampleUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,21 +422,132 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9AFB182E58BCDF9C862A2E7BDEDB407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A513370520BC8EC2E58EA2BCF8D5BA9 /* Pods-BdikaSDKExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CB04661BF48EB649704CF6F1184238B9 /* PBXTargetDependency */ = {
+		127D82F01774A0636F5C43DB838BE199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BdikaSDK;
+			target = AAA2FD385F7ECE73D226FD59F274DAC7 /* BdikaSDK */;
+			targetProxy = 8880A46CDF1E31C6467D12F20A071249 /* PBXContainerItemProxy */;
+		};
+		8CD04BF928092D523EDC6F64ABA422FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BdikaSDK;
+			target = AAA2FD385F7ECE73D226FD59F274DAC7 /* BdikaSDK */;
+			targetProxy = 8F5F4B494E07846E19ECD048931333EB /* PBXContainerItemProxy */;
+		};
+		FFCD457309C96540EC7D20DFFE16149A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BdikaSDKExample";
 			target = 884CCB576F70A04EC0FCFE02843965EC /* Pods-BdikaSDKExample */;
-			targetProxy = 10C1308AB338442DB17980F4CD1A018D /* PBXContainerItemProxy */;
+			targetProxy = F7287D0BCCC6FE26131075E48669D072 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		16A7E4E09E4EDA3B11435BCB8053031A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1415AE5F32710FB5B1D9ECA51F4237 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24376FFE419CBB89D70E766EB1BB9CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5683B44C9493B03C9811D3B501E261 /* BdikaSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1B4F3C58DB603F251B5BC085C4D7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CEA8AC95EB0F212C714FAA5B92C313 /* Pods-BdikaSDKExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		51E60984D05E50DAB82BE30B24E6215E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C172B659A40D488C3EFBB0DE8BC94986 /* Pods-BdikaSDKExampleTests.release.xcconfig */;
+			baseConfigurationReference = 3F6F947E54039CC27FCE798589F96BD5 /* Pods-BdikaSDKExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -395,84 +583,9 @@
 			};
 			name = Release;
 		};
-		8B762596C92B1B1D6D96ACEF288D9AFE /* Release */ = {
+		901BE7D604D49F63587E162148B237DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3F9B0317573B191E37D2313A69CBE83 /* Pods-BdikaSDKExample.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		94C0A651AA91D6374F24F6C101E21EDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40821B05145B18ED33C7614B465C486E /* Pods-BdikaSDKExample.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B389359EC0ED97BD8D79EF4D8AAAD086 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5CC89CB13C521C71825E5C9925F247D /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.release.xcconfig */;
+			baseConfigurationReference = A3F5C36AA36A92BE6CB794C48D505E3A /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -494,6 +607,44 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B11262BBF5C7F341356CA68BA7D7E423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E266A361B391D74E4A8962DA76E598E8 /* Pods-BdikaSDKExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -574,6 +725,22 @@
 			};
 			name = Debug;
 		};
+		C3CDE6BD5124A1CE808E03088DFA1AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50902DC6AD02032820175F0D71366B52 /* BdikaSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -638,7 +805,7 @@
 		};
 		E0A8302DBF62C5170DB38880F37DBBDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27ED5FA8C11E01146AF35625644F1009 /* Pods-BdikaSDKExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 44B38C019EAFE1F6CC93D791F37E38E5 /* Pods-BdikaSDKExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -673,43 +840,6 @@
 			};
 			name = Debug;
 		};
-		E223F870F78362D0FACB972EFBD66EAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22DAC99B2F4E754C6CD22D31A716C958 /* Pods-BdikaSDKExample-BdikaSDKExampleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -718,15 +848,6 @@
 			buildConfigurations = (
 				E0A8302DBF62C5170DB38880F37DBBDB /* Debug */,
 				51E60984D05E50DAB82BE30B24E6215E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37746BA06EEA73D888EA26D7B3AAE8AC /* Build configuration list for PBXNativeTarget "Pods-BdikaSDKExample-BdikaSDKExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E223F870F78362D0FACB972EFBD66EAC /* Debug */,
-				B389359EC0ED97BD8D79EF4D8AAAD086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,11 +861,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAF8092E8B5155FE4FC634774D07F577 /* Build configuration list for PBXNativeTarget "Pods-BdikaSDKExample" */ = {
+		551DA64B1F85093C11EBB693CFA5E597 /* Build configuration list for PBXNativeTarget "Pods-BdikaSDKExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94C0A651AA91D6374F24F6C101E21EDC /* Debug */,
-				8B762596C92B1B1D6D96ACEF288D9AFE /* Release */,
+				3D1B4F3C58DB603F251B5BC085C4D7E7 /* Debug */,
+				B11262BBF5C7F341356CA68BA7D7E423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9448C34460DD578A15F419FBB56D79A3 /* Build configuration list for PBXNativeTarget "Pods-BdikaSDKExample-BdikaSDKExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A7E4E09E4EDA3B11435BCB8053031A /* Debug */,
+				901BE7D604D49F63587E162148B237DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53F372D773282F4BAA9A7B1BC22BE18 /* Build configuration list for PBXAggregateTarget "BdikaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3CDE6BD5124A1CE808E03088DFA1AED /* Debug */,
+				24376FFE419CBB89D70E766EB1BB9CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

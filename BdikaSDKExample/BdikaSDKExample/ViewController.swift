@@ -6,11 +6,26 @@
 //
 
 import UIKit
+import BdikaSDK
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MeshulamDelegate {
+    
+    func onSuccess() {
+    }
+    
+    func onFailure(_ error: Error) {
+    }
+    
+    func onCancle() {
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Meshulam.shared.delegate = self
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 

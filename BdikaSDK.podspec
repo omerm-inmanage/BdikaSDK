@@ -27,13 +27,17 @@ Pod::Spec.new do |spec|
   A nice logger tool in Swift. Cheers
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/BdikaSDK"
+  spec.homepage     = "https://github.com/omerm-inmanage/BdikaSDK"
   spec.license      = { :type => "MIT", :file => "license" }
   spec.author             = { "Omer Cohen" => "omerm@inmanage.net"  }
-  spec.source       = { :git => "http://EXAMPLE/BdikaSDK.git", :tag => "#{spec.version}" }
+  # spec.source       = { :git => "https://github.com/omerm-inmanage/BdikaSDK.git", :tag => "#{spec.version}" }
+  spec.source = { :http => "file:/Users/omercohen/BdikaSDK/BdikaSDK.zip", :type => "zip"}
   # s.source            = { :http => 'https://s3.amazonaws.com/elasticbeanstalk-us-east-1-564874457370/NiceLogger.zip' }
+  # spec.ios.vendored_frameworks = 'BdikaSDK.xcframework'
+  
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.ios.vendored_frameworks = 'BdikaSDK.framework'
   spec.exclude_files = "Classes/Exclude"
+  # s.source_files = 'MeshulamSDK/Classes/**/*'
 
 end

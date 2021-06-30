@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 0a2955fa44a876961a2efcf8089f9b7ccfc7574e
+PODS:
+  - BdikaSDK (0.0.1)
+
+DEPENDENCIES:
+  - BdikaSDK (from `../BdikaSDK.podspec`)
+
+EXTERNAL SOURCES:
+  BdikaSDK:
+    :path: "../BdikaSDK.podspec"
+
+SPEC CHECKSUMS:
+  BdikaSDK: 39435f654d1151643d0642c906c1b6ac81a81e8c
+
+PODFILE CHECKSUM: 7126df820bbbb31361b80bcd56ec7cc67cd6686e
 
 COCOAPODS: 1.10.1

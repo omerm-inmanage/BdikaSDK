@@ -180,6 +180,7 @@
 				C79B7683268C37B8006EC47B /* Sources */,
 				C79B7684268C37B8006EC47B /* Frameworks */,
 				C79B7685268C37B8006EC47B /* Resources */,
+				881BD40234596B1A10CF3DDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +218,7 @@
 				C79B76A4268C37B9006EC47B /* Sources */,
 				C79B76A5268C37B9006EC47B /* Frameworks */,
 				C79B76A6268C37B9006EC47B /* Resources */,
+				05D6E9A8EB1DB9BC6ED22989 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,6 +320,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05D6E9A8EB1DB9BC6ED22989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BdikaSDKExample-BdikaSDKExampleUITests/Pods-BdikaSDKExample-BdikaSDKExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881BD40234596B1A10CF3DDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BdikaSDKExample/Pods-BdikaSDKExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		97CBC6D9971E79320211CB74 /* [CP] Check Pods Manifest.lock */ = {
